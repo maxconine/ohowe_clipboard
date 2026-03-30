@@ -13,17 +13,14 @@ It uses Cloudflare Workers, Workers KV, and R2.
 ![Screenshot of the lock page](./images/LockPage.jpeg)
 
 To use, fork the github repo.
-Download wrangler, npm, npx into library
-Use
+Download wrangler, npm, npx into library. Then use the following commands to set up.
 ```bash
 wrangler secret put USERNAME
 wrangler secret put PASSWORD
 wrangler secret put JWT_ISSUER
 wrangler secret put JWT_SECRET
 ```
-to set up.
-Then
+To deply:
 ```bash
 npx wrangler deploy
 ```
-to deploy
