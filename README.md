@@ -11,3 +11,19 @@ It uses Cloudflare Workers, Workers KV, and R2.
 ## Screenshots
 ![Screenshot of the home page](./images/HomePage.jpeg)
 ![Screenshot of the lock page](./images/LockPage.jpeg)
+
+To use, fork the github repo.
+Download wrangler, npm, npx into library
+Use
+```bash
+wrangler secret put USERNAME
+wrangler secret put PASSWORD
+wrangler secret put JWT_ISSUER
+wrangler secret put JWT_SECRET
+```
+to set up.
+Then
+```bash
+npx wrangler deploy
+```
+to deploy
