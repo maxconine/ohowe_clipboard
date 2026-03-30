@@ -5,7 +5,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "account_id": "16dc8948c0996c01a3db7fffda8d554d",
-  "name": "clipboard",
+  "name": "ohoweclipboard",
   "main": "src/index.ts",
   "compatibility_date": "2025-09-24",
   "routes": [
